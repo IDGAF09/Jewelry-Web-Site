@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="LANDING page global.css">
+    <link rel="stylesheet" href="landing page header.css">
+    <link rel="stylesheet" href="third-page.css">
+    <link rel="stylesheet" href="first-page.css">
+    <link rel="stylesheet" href="seconde-page.css">
+    <link rel="stylesheet" href="fourth-page.css">
+    <link rel="stylesheet" href="last-page.css">
+    <!--font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap" rel="stylesheet">
+    <!--icon link-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header>
+        <div class="left-side">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#" style="margin-right: 0;">BLOG</a>
+        </div>
+        <div class="middle-side">
+            <h3>LARNA INC</h3>
+        </div>
+        <div class="right-side">
+            <a href="#">SHOP</a>
+            <a href="#">CONTACT</a>
+            <a  href="#" style="margin-right: 0;">HELP</a>
+        </div>
+    </header>
+    <div class="body">
+        <div class="premiem-page">
+            <div class="miidle-contante">
+                <img src="/New folder/Black Bold Text Onboarding Page Wireframe Website UI Desktop Prototype.png" alt="" class="haupt-thumbnail">
+            </div>
+            <div class="information">
+                <h5>BESPOKE JEWELRY FOR ALL OCCASIONS</h5>
+                <button>SHOP NOW</button>
+            </div>
+        </div>
+        <div class="second-page">
+            <h3>POPULAR ITEMS</h3>
+            <div class="midlle-background"></div>
+            <div class="poupular-products">
+                <div class="left product-container">
+                    <div class="left-product">
+                        <div class="product-front-face">
+                            <img src="New folder/Black Bold Text Onboarding Page Wireframe Website UI Desktop Prototype (2).png" alt="">
+                        </div>
+                        <div class="product-back-face">
+                            <img src="New folder/Black Bold Text Onboarding Page Wireframe Website UI Desktop Prototype (2).png" alt="">
+                        </div>
+                    </div>
+                    <h5>Earrings</h5>
+                </div>
+                <div class="middle product-container">
+                    <div class="middle-product">
+                        <div class="product-front-face">
+                            <img src="New folder/ll.png" alt="">
+                        </div>
+                        <div class="product-back-face">
+                            <img src="New folder/ll.png" alt="">
+                        </div>
+                    </div>
+                    <h5>Bracelets</h5>
+                </div>
+                <div class="right product-container">
+                    <div class="right-product">
+                        <div class="product-front-face">
+                            <img src="New folder/2l.png" alt="">
+                        </div>
+                        <div class="product-back-face">
+                            <img src="New folder/2l.png" alt="">
+                        </div>
+                    </div>
+                    <h5>Necklaces</h5>
+                </div>
+            </div>
+            <div class="last-details">
+                <h6>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis hendrerit erat vitae iaculis facilisis. Ut dignissim odio a nunc ornare fringilla. Fusce pretium tincidunt accumsan.
+                </h6>
+            </div>
+        </div>
+        <div class="third-page">
+            <img src="New folder/3.png" alt="">
+            <div class="message">
+                <h2>
+                    KIND WORDS
+                </h2>
+                <ul>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </ul>
+                <h3>
+                    In love with the Jewelry! Thanks! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis hendrerit erat vitae iaculis facilisis. Ut dignissim odio a nunc ornare fringilla. Fusce pretium tincidunt accumsan.
+                </h3>
+                <h5> - Juliana Silva</h5>
+            </div>
+        </div>
+        <div class="fourth-page">
+            <div class="left-side">
+                <img class="item item1" src="New folder/c.png" alt="">
+                <img class="item item2" src="New folder/5.png" alt="">
+                <img class="item item3" src="New folder/Design sans titre.png" alt="">
+            </div>
+            <div class="right-side">
+                <h3>
+                    NEW COLLECTION
+                </h3>
+                <h5>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis hendrerit erat vitae iaculis facilisis. Ut dignissim odio a nunc ornare fringilla. Fusce pretium tincidunt accumsan.
+                </h5>
+                <h4>SHOP NOW</h4>
+            </div>
+        </div>
+        <div class="last-page">
+            <div class="image-container">
+                <img src="New folder/e.png" alt="">
+            </div>
+            <div class="sign-up">
+                <h3>
+                    SIGN UP FOR OUR NEWSLETTER TO GET FLAT 10% OFF YOUR FIRST ORDER!
+                </h3>
+            </div>
+            <footer class="low-bar">
+                <div class="first-section">
+                    <h3>Larna Inc.</h3>
+                    <div class="middle-links">
+                        <div class="middle-one">
+                            <a>HOME</a>
+                            <a>BLOG</a>
+                            <a>ABOUT</a>
+                        </div>
+                        <div class="middle-one">
+                            <a>SHOP</a>
+                            <a>CONTACT</a>
+                            <a>HELP</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-section">
+                    <h3>Terms & Conditions</h3>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

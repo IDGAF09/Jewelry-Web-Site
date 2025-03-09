@@ -1,0 +1,48 @@
+.miidle-contante{
+    width: 100%;
+    height:calc(100vh - 100px);
+    background-color: black;
+}
+.miidle-contante img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    position: relative;
+    opacity: 0.5;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 410px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.information h5{
+    color: white;
+    font-size: 43px;
+}
+.information button{
+    margin-top: 50px;
+    width: 42%;
+    color: #5b5247 ;
+    background-color: white;
+    opacity: 0.8;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 6px 5px;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+.information button:hover{
+    background-color: #5b5247;
+    color: white;
+    scale: 1.5;
+}

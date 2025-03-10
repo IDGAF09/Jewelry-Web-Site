@@ -1,0 +1,51 @@
+
+.third-page{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+}
+.third-page img{
+    width: 100%;
+    opacity: 0.8;
+    height: 100%;
+}
+.message{
+    border: 3px solid #5b5247;
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    background-color: #f6f4f1;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 80px;
+    text-align: center;
+}
+.message h2{
+    color: #5b5247;
+    font-weight: 300;
+    font-size: 40px;
+}
+.message h3{
+    color: #5b5247;
+    font-size: 27px;
+    font-weight: 200;
+    line-height: 40px
+    
+}
+.message h5{
+    font-size: 27px;
+    font-weight: 500;
+    color: #5b5247;
+    margin-top: 30px;
+}
+ul i{
+    color: #af9d81;
+    font-size: 30px;
+    margin: 35px 5px;
+}

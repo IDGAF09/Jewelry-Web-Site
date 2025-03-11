@@ -1,48 +1,61 @@
-.miidle-contante{
+.first-page{
     width: 100%;
-    height:calc(100vh - 100px);
-    background-color: black;
+    height: 100vh;
 }
-.miidle-contante img{
+.first-page .img{
+    background: url("New folder/Black Bold Text Onboarding Page Wireframe Website UI Desktop Prototype.png") no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.first-page .img::before{
+    background:transparent;
+    background-color: rgba(91,82,71, 0.5);
+    content: "";
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    object-position: top;
-    position: relative;
-    opacity: 0.5;
-}
-.information{
-    display: flex;
-    flex-direction: column;
     position: absolute;
-    top: 50%;
+}
+.first-page .center{
+    position: absolute;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 410px;
     text-align: center;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
 }
-.information h5{
+.center .title{
+    font-size: 100px;
+    font-weight: 600;
     color: white;
-    font-size: 43px;
+    margin-bottom: 3px;
 }
-.information button{
-    margin-top: 50px;
-    width: 42%;
-    color: #5b5247 ;
+.center .sub{
+    font-size: 75px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 3px;
+}
+.center .work{
+    font-size: 75px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+}
+.center button{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 35px;
+    border-radius: 25px;
+    border: solid transparent 3px;
+    color: rgb(91,82,71);
     background-color: white;
-    opacity: 0.8;
-    border: none;
-    border-radius: 15px;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 6px 5px;
     cursor: pointer;
-    transition: all ease 1s;
+    transition: all 1s ease;
 }
-.information button:hover{
-    background-color: #5b5247;
+.center button:hover{
+    scale: 2;
+    background-color: rgb(91,82,71);
     color: white;
-    scale: 1.5;
 }

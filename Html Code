@@ -21,73 +21,101 @@
 </head>
 <body>
     <header>
-        <div class="left-side">
-            <a href="#">HOME</a>
-            <a href="#">ABOUT</a>
-            <a href="#" style="margin-right: 0;">BLOG</a>
-        </div>
-        <div class="middle-side">
-            <h3>LARNA INC</h3>
-        </div>
-        <div class="right-side">
-            <a href="#">SHOP</a>
-            <a href="#">CONTACT</a>
-            <a  href="#" style="margin-right: 0;">HELP</a>
-        </div>
-    </header>
-    <div class="body">
-        <div class="premiem-page">
-            <div class="miidle-contante">
-                <img src="/New folder/Black Bold Text Onboarding Page Wireframe Website UI Desktop Prototype.png" alt="" class="haupt-thumbnail">
+        <nav>
+            <div class="head-bar">
+                <div class="left-side">
+                    <a href="#">HOME</a>
+                    <a href="#">ABOUT</a>
+                    <a href="#">BLOG</a>
+                </div>
+                <div class="middle-side">
+                    <a href="#">LARNA INC</a>
+                </div>
+                <div class="right-side">
+                    <a href="#">SHOP</a>
+                    <a href="#">CONTACT</a>
+                    <a  href="#" style="margin-right: 0;">HELP</a>
+                </div>
             </div>
-            <div class="information">
-                <h5>BESPOKE JEWELRY FOR ALL OCCASIONS</h5>
-                <button>SHOP NOW</button>
+        </nav>
+    </header>
+    <section class="one">
+        <div class="first-page">
+            <div class="img"></div>
+            <div class="center">
+                <div class="title">
+                    BESPOKE
+                </div>
+                <div class="sub">
+                    JEWELRY FOR ALL
+                </div>
+                <div class="work">
+                    OCCASIONS
+                </div>
+                <div class="button">
+                    <button>SHOP NOW</button>
+                </div>
             </div>
         </div>
         <div class="second-page">
-            <h3>POPULAR ITEMS</h3>
-            <div class="midlle-background"></div>
-            <div class="poupular-products">
-                <div class="left product-container">
-                    <div class="left-product">
-                        <div class="product-front-face">
-                            <img src="New folder/Black Bold Text Onboarding Page Wireframe Website UI Desktop Prototype (2).png" alt="">
-                        </div>
-                        <div class="product-back-face">
-                            <img src="New folder/Black Bold Text Onboarding Page Wireframe Website UI Desktop Prototype (2).png" alt="">
-                        </div>
-                    </div>
-                    <h5>Earrings</h5>
-                </div>
-                <div class="middle product-container">
-                    <div class="middle-product">
-                        <div class="product-front-face">
+            <h2>POPULAR ITEMS</h2>
+            <div class="popular-items">
+                <div class="left-product">
+                    <div class="subtitle">EARNINGS</div>
+                    <section>
+                        <div class="front-face">
                             <img src="New folder/ll.png" alt="">
                         </div>
-                        <div class="product-back-face">
+                        <div class="back-face">
+                            <img src="New folder/ll.png" alt="">
+                            <div class="information">
+                                <header>CHAIN BRACELTS</header>
+                                
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="left-product">
+                    <div class="subtitle">BRACELTS</div>
+                    <section>
+                        <div class="front-face">
                             <img src="New folder/ll.png" alt="">
                         </div>
-                    </div>
-                    <h5>Bracelets</h5>
+                        <div class="back-face">
+                            <img src="New folder/ll.png" alt="">
+                            <div class="information">
+                                <header>CHAIN BRACELTS</header>
+                                
+                            </div>
+                        </div>
+                    </section>
                 </div>
-                <div class="right product-container">
-                    <div class="right-product">
-                        <div class="product-front-face">
-                            <img src="New folder/2l.png" alt="">
+                <div class="left-product">
+                    <div class="subtitle">NECLACES</div>
+                    <section>
+                        <div class="front-face">
+                            <img src="New folder/ll.png" alt="">
                         </div>
-                        <div class="product-back-face">
-                            <img src="New folder/2l.png" alt="">
+                        <div class="back-face">
+                            <img src="New folder/ll.png" alt="">
+                            <div class="information">
+                                <header>CHAIN BRACELTS</header>
+                                <span class="title">
+                                    categories: Accessories for Women
+                                </span>
+                                <span class="title">Color:</span>
+                                <span class="color">
+                                    <span class="silver"></span>
+                                    <span class="gold"></span>
+                                </span>
+                            </div>
                         </div>
-                    </div>
-                    <h5>Necklaces</h5>
+                    </section>
                 </div>
             </div>
-            <div class="last-details">
-                <h6>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis hendrerit erat vitae iaculis facilisis. Ut dignissim odio a nunc ornare fringilla. Fusce pretium tincidunt accumsan.
-                </h6>
-            </div>
+            <footer>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis hendrerit erat vitae iaculis facilisis. Ut dignissim odio a nunc ornare fringilla. Fusce pretium tincidunt accumsan.
+            </footer>
         </div>
         <div class="third-page">
             <img src="New folder/3.png" alt="">
@@ -154,6 +182,6 @@
                 </div>
             </footer>
         </div>
-    </div>
+    </section>
 </body>
 </html>

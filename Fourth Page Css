@@ -3,7 +3,8 @@
     background: linear-gradient(to right, #f6f4f1 0%, #f6f4f1 30%, white 30%, white 100%);
     display: grid;
     grid-template-columns: 70% 1fr;
-    max-height: 100vh;
+    height: 100vh;
+    padding-top: 25px;
 }
 .fourth-page .left-side{
     display: grid;
